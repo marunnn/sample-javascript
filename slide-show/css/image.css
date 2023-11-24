@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+section img {
+    max-width: 100%;
+}
+
+.image {
+    margin: 0 auto 0 auto;
+    border: 5px solid black;
+    max-width: 90%;
+    width: 720px;
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    flex: 1 1 auto;
+    margin-right: 8px;
+}
+
+li:last-of-type {
+    margin-right: 0;
+}
+
+.toolbar {
+    overflow: hidden;
+    text-align: center;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+}
+
+#prev {
+    margin-right: 0.5rem;
+    width: 16px;
+    height: 16px;
+    background: url(../../common/img/arrow-left.svg) no-repeat;
+}
+
+#next {
+    margin-left: 0.5rem;
+    width: 16px;
+    height: 16px;
+    background: url(../../common/img/arrow-right.svg) no-repeat;
+}
+
+#page {
+    color: white;
+}
